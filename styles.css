@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mada", sans-serif;
+  background-color: #f5f5f5;
+}
+body .app-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  margin-top: 50px;
+  width: 500px;
+  margin: 50px auto;
+  background-color: #FFFF;
+  -webkit-box-shadow: 10px 10px 23px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 23px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 23px -20px rgba(0, 0, 0, 0.75);
+}
+@media only screen and (max-width: 600px) {
+  body .app-wrap {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    margin-top: 0;
+  }
+}
+body .app-wrap header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+  margin-bottom: 50px;
+}
+body .app-wrap header input {
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background: #f5f5f5;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  color: black;
+}
+body .app-wrap main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+  border-top-left-radius: 50px;
+  background: #3ca59d;
+  border-top-right-radius: 50px;
+}
+body .app-wrap main .location .city {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+body .app-wrap main .location .date {
+  color: #FFFF;
+  font-size: 16px;
+}
+body .app-wrap main .current .temp {
+  color: #FFFF;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 30px 0px;
+}
+body .app-wrap main .current .temp span {
+  font-weight: 500;
+}
+body .app-wrap main .current .weather {
+  color: #FFFF;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+body .app-wrap main .current .hi-low {
+  color: #FFFF;
+  font-size: 28px;
+  font-weight: 500;
+  text-shadow: rgba(0, 0, 0, 0.4);
+}
+
+/*# sourceMappingURL=styles.css.map */
